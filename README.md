@@ -25,13 +25,13 @@ This is a simple task manager API built using **FastAPI** and **SQLAlchemy** wit
 ## API Endpoints
 POST /task 
 - Create a new task
--  Example body:
--  {
--	"title": "Buy groceries",
-- 	"description": "Milk, Eggs, Bread",
--  	"completed": false,
-- 	"deadline": "2025-10-15"
--  }
+   Example body:
+   {
+	"title": "Buy groceries",
+ 	"description": "Milk, Eggs, Bread",
+  	"completed": false,
+ 	"deadline": "2025-10-15"
+  }
 2. GET /tasks/{task_id} 
    - Read a task by its ID
 3. PUT /tasks/{task_id} 
